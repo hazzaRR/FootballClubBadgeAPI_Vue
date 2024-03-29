@@ -13,7 +13,7 @@ import {ref, onMounted} from 'vue';
 import Badge from '../components/Badge.vue';
 import {getTeams} from '../composables/apiRequest.js';
 
-const teams = ref(["Derby County", "Notts Forest"]);
+const teams = ref([]);
 
 onMounted(async () => {
     teams.value = await getTeams();
