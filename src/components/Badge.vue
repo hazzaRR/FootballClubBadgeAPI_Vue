@@ -1,24 +1,14 @@
 <template>
-    <div>
+    <div class="mx-auto w-20 h-20">
+        <!-- <img :src="clubBadge.src" :alt="clubBadge.alt"> -->
 
-        <img :src="clubBadge.src" :alt="clubBadge.alt">
-
-        <h2>{{ teamName }}</h2>
+        <h2 class="text-lg">{{ teamName }}</h2>
 
     </div>
 </template>
 
 <script setup>
-
-import {ref} from 'vue';
-
-
-const clubBadge = ref({
-    src: null,
-    alt: null
-})
-
-const teamName = ref(null);
+const props = defineProps(['clubBadge', 'teamName'])
 
 </script>
 
