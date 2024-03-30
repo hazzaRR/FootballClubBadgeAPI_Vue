@@ -8,7 +8,7 @@
     </div>
 
     <div class="grid grid-cols-4 gap-4">
-        <Badge class="hover:bg-slate-200 p-4" v-for="(team, index) in teams" :key="index" :team-name="team" />
+        <Badge class="hover:bg-slate-200 p-4 w-100 h-100" v-for="(team, index) in teams" :key="index" :team-name="team" />
     </div>
 </template>
 
