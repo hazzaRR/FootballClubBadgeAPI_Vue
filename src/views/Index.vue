@@ -3,8 +3,12 @@
         homepage
     </div>
 
-    <div class="grid grid-cols-5 gap-4">
-        <Badge v-for="(team, index) in teams" :key="index" :team-name="team" />
+    <div class="flex">
+        <h1 class="text-2xl font-bold w-full h-full mx-auto text-center my-6">Supported Clubs</h1>
+    </div>
+
+    <div class="grid grid-cols-4 gap-4">
+        <Badge class="hover:bg-slate-200 p-4" v-for="(team, index) in teams" :key="index" :team-name="team" />
     </div>
 </template>
 
