@@ -4,7 +4,7 @@
             <img :src="`${BASE_URL}/api/badge/${teamName}?padding=true`" :alt="`${teamName} club badge`" class="">
         </div>
         
-        <h2 class="text-lg text-center w-full rounded-md justify-center">{{ teamName }}</h2>
+        <h2 class="text-lg text-center w-full rounded-md justify-center pb-2">{{ teamName }}</h2>
 
     </div>
 </template>

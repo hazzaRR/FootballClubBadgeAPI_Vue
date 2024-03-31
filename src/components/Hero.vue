@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen h-96 bg-[#011489] opacity-80 grid grid-cols-1 md:grid-cols-2 content-center py-10">
+    <div class="w-full h-96 bg-[#011489] opacity-80 grid grid-cols-1 md:grid-cols-2 content-center py-10">
 
         <div class="flex justify-center items-center">
             <h1 class="text-6xl font-mono font-bold text-white">Quick Start</h1>
