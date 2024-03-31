@@ -1,7 +1,4 @@
 <template>
-    <div class="text-3xl font-bold">
-        homepage
-    </div>
     <Hero />
     <div class="mx-auto w-full">
         <div class="flex">
