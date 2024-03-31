@@ -2,7 +2,7 @@
     <div class="text-3xl font-bold">
         homepage
     </div>
-
+    <Hero />
     <div class="mx-auto w-full">
         <div class="flex">
             <h1 class="text-2xl font-bold w-full h-full mx-auto text-center my-6">Supported Clubs</h1>
@@ -17,6 +17,7 @@
 <script setup>
 import {ref, onMounted} from 'vue';
 import Badge from '../components/Badge.vue';
+import Hero from '../components/Hero.vue';
 import {getTeams} from '../composables/apiRequest.js';
 
 const teams = ref([]);
