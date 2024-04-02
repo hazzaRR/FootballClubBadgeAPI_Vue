@@ -26,11 +26,6 @@
 
 <script setup>
 import { BASE_URL } from '../config';
-import 'highlight.js/lib/common';
-import 'highlight.js/styles/tokyo-night-dark.css'
-import hljsVuePlugin from "@highlightjs/vue-plugin";
-
-const highlightjs = hljsVuePlugin.component;
 
 const code = "<img src=\"https://eflBadges.com/:team.<png/jpeg>?width=<int>&width<int>&padding=<boolean>&grayscale=<boolean>\">"
 const exampleCallPng = "<img src=\"https://localhost:3000/api/badge/Derby%20County.png?width=100&height=100&padding=true\">"
