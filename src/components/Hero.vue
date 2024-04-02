@@ -14,11 +14,11 @@
             <h2 class="ml-2 text-xl text-white">Result:</h2>
             <div class="flex justify-center m-2 items-center bg-gray-200 rounded-md w-1/2 md:w-1/3">
                 <img :src="`${BASE_URL}/api/badge/Derby%20County.png?width=100&height=100&padding=true`" :alt="`Derby County club badge`" class="">
-                <p class="ml-4 text-lg">png image</p>
+                <p class="ml-4 text-lg font-semibold">PNG image</p>
             </div>
             <div class="flex justify-center m-2 items-center bg-gray-200 rounded-md w-1/2 md:w-1/3">
                 <img :src="`${BASE_URL}/api/badge/Derby%20County.jpeg?width=100&height=100&padding=true`" :alt="`Derby County club badge`" class="">
-                <p class="ml-4 text-lg">jpeg image</p>
+                <p class="ml-4 text-lg font-semibold">JPEG image</p>
             </div>
         </div>
     </div>
