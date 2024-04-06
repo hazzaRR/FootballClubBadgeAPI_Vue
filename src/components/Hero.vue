@@ -27,9 +27,9 @@
 <script setup>
 import { BASE_URL } from '../config';
 
-const code = "<img src=\"https://eflBadges.com/:team.<png/jpeg>?width=<int>&width<int>&padding=<boolean>&grayscale=<boolean>\">"
-const exampleCallPng = "<img src=\"https://localhost:3000/api/badge/Derby%20County.png?width=100&height=100&padding=true\">"
-const exampleCallJpeg = "<img src=\"https://localhost:3000/api/badge/Derby%20County.jpeg?width=100&height=100&padding=true\">"
+const code = `<img src=\"${BASE_URL}/:team.<png/jpeg>?width=<int>&width<int>&padding=<boolean>&grayscale=<boolean>\">`
+const exampleCallPng = `<img src=\"${BASE_URL}/api/badge/Derby%20County.png?width=100&height=100&padding=true\">`
+const exampleCallJpeg = `<img src=\"${BASE_URL}/api/badge/Derby%20County.jpeg?width=100&height=100&padding=true\">`
 
 
 </script>
