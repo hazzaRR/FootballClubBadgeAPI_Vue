@@ -1,4 +1,5 @@
 import { BASE_URL } from "../config";
+const apiKey = import.meta.env.VITE_API_KEY;
 
 export const getTeams = async () => {
 
@@ -7,6 +8,7 @@ export const getTeams = async () => {
         method: "GET",
         headers: { 
             "Content-Type": "application/json",
+            "X-Api-Key": apiKey
         }
     });
 
